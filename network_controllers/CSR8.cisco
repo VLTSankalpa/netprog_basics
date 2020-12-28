@@ -1,0 +1,27 @@
+! H-VPLS
+
+en
+conf t
+int pseudowire 12
+encapsulation mpls
+neighbor 10.6.6.6 12
+
+int pseudowire 13
+encapsulation mpls
+neighbor 10.4.4.4 13
+
+int pseudowire 101
+encapsulation mpls
+neighbor 10.1.1.1 101
+
+l2vpn vfi context NPE
+vpn id 500
+member pseudowire 12
+member pseudowire 13
+exit
+
+bridge-domain 500
+member vfi NPE
+member pseudowire 101
+member 10.3.3.3 201 encapsulation mpls
+exit

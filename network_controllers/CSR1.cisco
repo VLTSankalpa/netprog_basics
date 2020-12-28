@@ -1,0 +1,14 @@
+! H-VPLS
+
+en
+conf t
+int g3
+no shut
+service instance 500 ethernet
+encapsulation dot1q 500
+exit
+exit
+
+l2vpn xconnect context UPE
+member 10.8.8.8 101 encapsulation mpls
+member g3 service-instance 500
