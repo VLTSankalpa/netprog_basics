@@ -1,13 +1,7 @@
 #! /usr/bin/env python
-"""
-Learning Series: Network Programmability Basics
-Author: Hank Preston <hapresto@cisco.com>
 
-device_info.py
-Illustrate the following concepts:
-- Store device info for Sandbox Infrastructure used
-  in examples
-"""
+
+dffhejrhdrhdrhhSsh
 
 # DevNet Always-On NETCONF/YANG & RESTCONF Sandbox Device
 # https://devnetsandbox.cisco.com/RM/Diagram/Index/27d9747a-db48-4565-8d44-df318fce37ad?diagramType=Topology
