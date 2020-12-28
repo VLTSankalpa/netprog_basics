@@ -5,14 +5,9 @@ Author: Hank Preston <hapresto@cisco.com>
 
 device_info.py
 Illustrate the following concepts:
-- Store device info for Sandbox Infrastructure used 
+- Store device info for Sandbox Infrastructure used
   in examples
 """
-
-__author__ = "Hank Preston"
-__author_email__ = "hapresto@cisco.com"
-__copyright__ = "Copyright (c) 2016 Cisco Systems, Inc."
-__license__ = "MIT"
 
 # DevNet Always-On NETCONF/YANG & RESTCONF Sandbox Device
 # https://devnetsandbox.cisco.com/RM/Diagram/Index/27d9747a-db48-4565-8d44-df318fce37ad?diagramType=Topology
@@ -50,4 +45,3 @@ apic = {
              "password": "ciscopsdt",
              "port": 443
          }
-
